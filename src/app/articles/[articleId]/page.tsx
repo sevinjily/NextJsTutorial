@@ -4,7 +4,7 @@ export default function NewsArticle({params,searchParams}:
     searchParams:Promise<{lang?:"en"|"es" |"fr"}>;
     }){
      return <div>
-        <h1>News article</h1>
+      <h1>News Article</h1>
         <p>Reading in language</p>
         <div>
             <Link href="/articles/id?lang=en">English</Link>
